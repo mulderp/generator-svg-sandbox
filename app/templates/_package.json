@@ -1,0 +1,11 @@
+{
+  "name": "sandbox-project",
+  "version": "0.0.0",
+  "dependencies": {
+    "svg-node": "^1.0.0",
+    "svgify": "0.0.0"
+  },
+  "browserify": {
+    "transform": [ "svgify" ]
+  }
+}
